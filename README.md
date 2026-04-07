@@ -1,8 +1,5 @@
 <div align="center">
 
-<img src="assets/zodiac/mesha.png" width="140"
-style="filter: drop-shadow(0 0 25px #F5C978) drop-shadow(0 0 60px rgba(245,201,120,0.6)); animation: float 4s ease-in-out infinite;" />
-
 <br/><br/>
 
 <img src="https://readme-typing-svg.demolab.com?font=El+Messiri&weight=700&size=34&duration=2500&pause=800&color=F5C978&center=true&vCenter=true&width=700&lines=🌌+SSP+Astro+-+Enter+the+Cosmic+Temple;✨+A+Divine+Vedic+Experience;🕉️+Where+Stars+Speak+Your+Destiny;🔮+Feel+the+Energy+of+the+Universe" />
