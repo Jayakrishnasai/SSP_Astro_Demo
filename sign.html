@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>Zodiac Details | SSP Astro</title>
+    <meta
+      name="description"
+      content="Detailed zodiac sign meanings in English, Sanskrit, and Telugu."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=El+Messiri:wght@400;500;600;700&family=Noto+Sans+Telugu:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body class="detail-page">
+    <div class="page-shell">
+      <div class="starfield" aria-hidden="true"></div>
+      <header class="site-header">
+        <div class="brand-mark">
+          <span class="brand-mark__icon"></span>
+          <div>
+            <p class="eyebrow">Sacred Jyotish</p>
+            <a class="brand-mark__name" href="./index.html">SSP Astro</a>
+          </div>
+        </div>
+        <nav class="site-nav" aria-label="Primary navigation">
+          <a href="./index.html#home">Home</a>
+          <a href="./index.html#about">About</a>
+          <a href="./index.html#zodiac">Zodiac</a>
+          <a href="./index.html#services">Services</a>
+          <a href="./index.html#stories">Stories</a>
+          <a href="./index.html#contact">Contact</a>
+        </nav>
+        <a class="button button--ghost header-cta" href="./index.html#zodiac">Back to signs</a>
+      </header>
+
+      <main class="sign-detail">
+        <section class="sign-detail__hero">
+          <a class="text-link sign-detail__back" href="./index.html#zodiac">Back to zodiac grid</a>
+          <div class="sign-detail__hero-grid">
+            <div class="sign-detail__copy card">
+              <p class="eyebrow">Jyotish profile</p>
+              <div class="sign-detail__title-row">
+                <div class="sign-detail__symbol-shell">
+                  <img
+                    id="sign-symbol"
+                    class="sign-detail__symbol"
+                    src="./assets/zodiac/mesha.png"
+                    alt="Mesha zodiac icon"
+                  />
+                  <span
+                    id="sign-symbol-fallback"
+                    class="sign-detail__symbol-fallback"
+                    hidden
+                    >♈</span
+                  >
+                </div>
+                <div>
+                  <p class="sign-detail__sanskrit" id="sign-sanskrit">Mesha</p>
+                  <h1 id="sign-name">Aries</h1>
+                  <p class="sign-detail__telugu" id="sign-telugu" lang="te">మేషం</p>
+                </div>
+              </div>
+              <p class="sign-detail__headline" id="sign-headline"></p>
+              <p class="sign-detail__summary" id="sign-summary"></p>
+            </div>
+
+            <aside class="sign-detail__facts card">
+              <div class="sign-detail__fact">
+                <span>Element</span>
+                <strong id="sign-element"></strong>
+              </div>
+              <div class="sign-detail__fact">
+                <span>Ruling planet</span>
+                <strong id="sign-planet"></strong>
+              </div>
+              <div class="sign-detail__fact">
+                <span>Lucky color</span>
+                <strong id="sign-color"></strong>
+              </div>
+              <div class="sign-detail__fact">
+                <span>Lucky day</span>
+                <strong id="sign-day"></strong>
+              </div>
+              <div class="sign-detail__fact">
+                <span>Growth focus</span>
+                <strong id="sign-focus"></strong>
+              </div>
+            </aside>
+          </div>
+        </section>
+
+        <section class="sign-detail__content">
+          <div class="detail-grid">
+            <article class="card detail-card">
+              <p class="eyebrow">Personality</p>
+              <p id="sign-personality"></p>
+            </article>
+            <article class="card detail-card">
+              <p class="eyebrow">Love</p>
+              <p id="sign-love"></p>
+            </article>
+            <article class="card detail-card">
+              <p class="eyebrow">Career</p>
+              <p id="sign-career"></p>
+            </article>
+            <article class="card detail-card">
+              <p class="eyebrow">Wellness</p>
+              <p id="sign-wellness"></p>
+            </article>
+          </div>
+
+          <div class="detail-grid detail-grid--small">
+            <article class="card detail-card">
+              <p class="eyebrow">Strengths</p>
+              <ul class="detail-list" id="sign-strengths"></ul>
+            </article>
+            <article class="card detail-card">
+              <p class="eyebrow">Challenges</p>
+              <ul class="detail-list" id="sign-challenges"></ul>
+            </article>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <p>Guided by jyotish, ritual, and celestial rhythm.</p>
+        <p>&copy; <span id="year"></span> SSP Astro. All rights reserved.</p>
+      </footer>
+    </div>
+
+    <script src="./zodiac-data.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
